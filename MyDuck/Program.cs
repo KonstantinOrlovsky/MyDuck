@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 namespace MyDuck
 {
     class Program
@@ -19,7 +18,6 @@ namespace MyDuck
                 ducks.Swim();
                 ducks.Say();
                 ducks.Fly();
-
                 Console.WriteLine();
             }
             Duck.BaseDuck upgreatDuck = new Duck.UpgratableDuck();
