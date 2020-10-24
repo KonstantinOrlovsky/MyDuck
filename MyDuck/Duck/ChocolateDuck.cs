@@ -9,5 +9,6 @@ namespace MyDuck.Duck
     class ChocolateDuck : BaseDuck
     {
         public override void Display() => Console.WriteLine("Chocolate duck was created!!!");
+        public ChocolateDuck() => flyable = new Fly.NoFly();
     }
 }
