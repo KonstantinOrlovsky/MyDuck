@@ -34,7 +34,6 @@ namespace MyDuck
 
             Console.Read();
             Console.Read();
-            Console.Read();
 
         }
     }
